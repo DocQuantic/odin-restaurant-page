@@ -1,0 +1,27 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "Project from Odin curiculum aiming in practicing use of javascript modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DocQuantic/odin-restaurant-page.git"
+  },
+  "author": "DocQuantic <w.magrini@protonmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DocQuantic/odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/DocQuantic/odin-restaurant-page#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
