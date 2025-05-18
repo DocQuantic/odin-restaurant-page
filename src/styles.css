@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'optifrenchscript';
+    src: url('./fonts/optifrench-script-webfont.woff2') format('woff2'),
+         url('./fonts/optifrench-script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: blueviolet;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-family: "optifrenchscript";
+    font-size: 4em;
 }
