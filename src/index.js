@@ -1,3 +1,4 @@
 import "./styles.css";
+import {default as home} from "./modules/home" 
 
-console.log("Hello, World!");
+home();
