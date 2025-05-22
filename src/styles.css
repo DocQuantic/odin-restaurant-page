@@ -85,3 +85,21 @@ nav{
     padding: 1em 2em;
     border-radius: 5px;
 }
+
+.menu{
+    font-family: "optifrenchscript";
+    font-size: 2em;
+    margin-bottom: 1em;
+    > h2{
+        margin-bottom: 1em;
+    }
+    > p + h3{
+        margin-top: 1em;
+    }
+    >p::before{
+        content: "- ";
+    }
+    > p::after{
+        content: " -";
+    }
+}
