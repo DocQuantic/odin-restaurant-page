@@ -2,6 +2,7 @@ import mahadiPic from "../images/Mahadi.webp"
 
 export default function() {
     const content = document.querySelector("#content");
+    content.innerHTML = "";
     content.classList.remove("menu");
 
     const title = document.createElement("h2");
@@ -15,7 +16,7 @@ export default function() {
     pic.setAttribute("alt", "Mahadi the rakshasa");
 
     const catchPhrase = document.createElement("p");
-    catchPhrase.innerText = "Come find us at any place in avernus";
+    catchPhrase.innerText = "Come eat our delicious meals in exchange of one soul coin";
 
     content.appendChild(title);
     content.appendChild(welcomePhrase);
