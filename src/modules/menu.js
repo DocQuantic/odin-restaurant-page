@@ -1,6 +1,5 @@
 export default function(){
     const content = document.querySelector("#content");
-    content.innerHTML = "";
     content.classList.add("menu");
 
     const title = document.createElement("h2");

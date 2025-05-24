@@ -2,7 +2,6 @@ import mahadiPic from "../images/Mahadi.webp"
 
 export default function() {
     const content = document.querySelector("#content");
-    content.innerHTML = "";
     content.classList.remove("menu");
 
     const title = document.createElement("h2");
